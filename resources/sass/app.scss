@@ -1,0 +1,118 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+body {.popover{display: none !important;}}
+button{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+// label{
+//     text-align: center;
+//     margin-left: calc(50% - 25px);
+// }
+a{
+    color: #6cb2eb !important;
+}
+h1{
+    font-weight: bold;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    color: #6cb2eb;
+}
+.card{
+    display: inline-block;
+    width: 220px;
+    height: 250px;
+    float: left;
+    margin: 5px;
+}
+    .card:hover{
+        display: inline-block;
+        border: solid 1px #000;
+        float: left;
+    }
+    .card-body{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+        .one-product > a{
+            font-size: 20px;
+            line-height: 20px;
+            border-bottom: solid #000 2px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 5px;
+        }
+
+.card-create{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    float: left;
+    margin: 5px;
+}
+    .card-create button{
+        margin-top: 20px;
+    }
+    .card-create label{
+        color: #6cb2eb;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .card-create small{
+        color: #6cb2eb;
+        opacity: 0.8;
+    }
+.card-edit{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    float: left;
+    margin: 5px;
+}
+    .card-edit button{
+        margin-top: 20px;
+    }
+    .card-edit label{
+        color: #6cb2eb;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .card-edit small{
+        color: #6cb2eb;
+        opacity: 0.8;
+    }
+
+.restaurant-index{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+.card-index-center{
+    text-align: center;
+    height: 100px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;  
+}
+.button-margin{
+    margin-bottom: 20px;
+}
