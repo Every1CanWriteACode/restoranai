@@ -31,7 +31,7 @@
               
                     <select name="menu_id">
                         @foreach ($menus as $menu)
-                    <option value="{{$menu->id}}">{{$menu->title}} {{$menu->price}} {{$menu->weight}} {{$menu->meat}} {{$menu->about}}</option>
+                    <option value="{{$menu->id}}">{{$menu->title}} {{$menu->price}} {{$menu->weight}} {{$menu->meat}} {!!$menu->about!!}</option>
                    
                       @endforeach
                     </select><br>

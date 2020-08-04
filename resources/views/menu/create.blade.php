@@ -18,13 +18,13 @@
                     <div class="form-group">
                         <label >Price</label>
                         <input type="text" name="menu_price" class="form-control" value="{{old('menu_price')}}">
-                        <small class="form-text text-muted">kaina.</small>
+                        <small class="form-text text-muted">kaina eurais.</small>
                       </div>
                     {{-- weight: <input type="text" name="menu_weight"> --}}
                     <div class="form-group">
                         <label>Weight</label>
                         <input type="text" name="menu_weight" class="form-control" value="{{old('menu_weight')}}">
-                        <small class="form-text text-muted">Patiekalo svoris.</small>
+                        <small class="form-text text-muted">Patiekalo svoris gramais.</small>
                       </div>
                     {{-- meat: <input type="text" name="menu_meat"> --}}
                     <div class="form-group">

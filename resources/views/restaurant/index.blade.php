@@ -9,12 +9,12 @@
                 <select name="menu_id">
                     <option value="0">Show All</option>
                     @foreach ($menus as $menu)
-                        <option value="{{$menu->id}}" @if($selectId == $menu->id) selected @endif>{{$menu->title}} {{$menu->price}}</option>
+                        <option value="{{$menu->id}}" @if($selectId == $menu->id) selected @endif>Patiekalas: {{$menu->title}} Kaina: {{$menu->price}}</option>
                     @endforeach
                 </select><br><br>
                     Sort By: <br>
                         title: <input type="radio" name="sort" value="title" @if('title' == $sort) checked @endif><br>
-                        price: <input type="radio" name="sort" value="price" @if('price' == $sort) checked @endif><br>
+                        {{-- price: <input type="radio" name="sort" value="price" @if('price' == $sort) checked @endif><br> --}}
                     <button type="submit"  class="btn btn-info">FILTER</button>
                 </form>
             </div>
